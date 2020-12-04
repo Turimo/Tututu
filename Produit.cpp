@@ -20,7 +20,7 @@ double Produit::getPrix() const{
   return _prix;
 }
 
-void Produit::setQuantite(Produit& produit,int nouvelle_quantite){
+void Produit::setQuantite(int nouvelle_quantite){
   _quantite=nouvelle_quantite;
 }
 

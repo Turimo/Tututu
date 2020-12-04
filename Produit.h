@@ -9,8 +9,7 @@ class Produit{
     std::string getDescription() const;
     int getQuantite() const;
     double getPrix() const;
-    friend void operator+(Produit produit);
-    void setQuantite(Produit& produit, int nouvelle_quantite);
+    void setQuantite(int nouvelle_quantite);
     
     friend std::ostream& operator<< (std::ostream& out, const Produit& produit);
   private:

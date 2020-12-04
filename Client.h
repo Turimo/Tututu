@@ -6,7 +6,7 @@
 
 class Client{
   public:
-    std::vector<Produit> getpanier() const;
+    std::vector<Produit> getPanier() const;
     Client(int id,std::string prenom,std::string nom,std::vector<Produit> panier);
     void ajouterProduitPanier(Produit &produit);
   private:
